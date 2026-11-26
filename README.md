@@ -76,7 +76,7 @@
     </tr>
     <tr>
       <td align="left"><img src="docs/readme/mobile-found-reports.gif" alt="발견 제보 상세와 제보 위치를 표시한 지도" width="250"></td>
-      <td align="left"><img src="docs/readme/mobile-ai-match-notifications-tab.jpg" alt="알림 목록 상단의 AI 매칭 탭" width="250"></td>
+      <td align="left"><img src="docs/readme/mobile-ai-match-notifications-tab.gif" alt="AI 매칭 알림을 열어 관련 제보를 확인하는 화면" width="250"></td>
     </tr>
   </tbody>
 </table>
