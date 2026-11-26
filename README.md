@@ -1,5 +1,5 @@
 <div>
-  <img src="mobile/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" alt="" width="64">
+  <img src="docs/readme/usee-app-icon.png" alt="" width="64">
   <h1>USee</h1>
   <p><strong>반려동물을 찾는 일부터, 새 가족을 맞이하는 준비까지</strong></p>
   <p>시민과 예비 보호자, 보호소를 연결하는 반려동물 서비스</p>
@@ -19,7 +19,7 @@
   </p>
 </div>
 
-![USee 프로젝트 표지](./docs/usee-cover.png)
+![USee 프로젝트 표지](./docs/readme/usee-cover.png)
 
 ## 프로젝트 소개
 
@@ -56,8 +56,8 @@
       <td valign="top">목격한 동물의 사진과 발견 장소를 입력해 제보 게시글을 등록합니다.</td>
     </tr>
     <tr>
-      <td align="left"><img src="docs/demos/mobile-missing-report-registration.gif" alt="반려동물 선택부터 실종 신고 게시글 등록까지" width="250"></td>
-      <td align="left"><img src="docs/demos/mobile-found-report-registration.gif" alt="사진 첨부와 위치 선택부터 발견 제보 게시글 등록까지" width="250"></td>
+      <td align="left"><img src="docs/readme/mobile-missing-report-registration.gif" alt="반려동물 선택부터 실종 신고 게시글 등록까지" width="250"></td>
+      <td align="left"><img src="docs/readme/mobile-found-report-registration.gif" alt="사진 첨부와 위치 선택부터 발견 제보 게시글 등록까지" width="250"></td>
     </tr>
   </tbody>
 </table>
@@ -75,8 +75,8 @@
       <td valign="top">실종 동물과 닮은 후보가 생기면 알림을 받습니다. 아래 화면은 알림 목록의 ‘AI 매칭’ 탭 위치를 보여줍니다.</td>
     </tr>
     <tr>
-      <td align="left"><img src="docs/demos/mobile-found-reports.gif" alt="발견 제보 상세와 제보 위치를 표시한 지도" width="250"></td>
-      <td align="left"><img src="docs/demos/mobile-ai-match-notifications-tab.jpg" alt="알림 목록 상단의 AI 매칭 탭" width="250"></td>
+      <td align="left"><img src="docs/readme/mobile-found-reports.gif" alt="발견 제보 상세와 제보 위치를 표시한 지도" width="250"></td>
+      <td align="left"><img src="docs/readme/mobile-ai-match-notifications-tab.jpg" alt="알림 목록 상단의 AI 매칭 탭" width="250"></td>
     </tr>
   </tbody>
 </table>
@@ -96,8 +96,8 @@
       <td valign="top">입양 신청 내역에서 접수, 심사 진행, 최종 승인 상태를 확인합니다.</td>
     </tr>
     <tr>
-      <td align="left"><img src="docs/demos/mobile-adoption-application.gif" alt="보호 동물 상세에서 입양 신청서를 작성하고 제출하는 과정" width="250"></td>
-      <td align="left"><img src="docs/demos/mobile-adoption-review-status.gif" alt="입양 신청 접수, 심사 진행, 최종 승인 화면을 순서대로 보여주는 GIF" width="250"></td>
+      <td align="left"><img src="docs/readme/mobile-adoption-application.gif" alt="보호 동물 상세에서 입양 신청서를 작성하고 제출하는 과정" width="250"></td>
+      <td align="left"><img src="docs/readme/mobile-adoption-review-status.gif" alt="입양 신청 접수, 심사 진행, 최종 승인 화면을 순서대로 보여주는 GIF" width="250"></td>
     </tr>
   </tbody>
 </table>
@@ -109,7 +109,7 @@
 <details>
 <summary>모의 입양 시작 화면 보기</summary>
 
-<img src="docs/demos/mobile-mock-adoption.gif" alt="모의 입양 동물 선택, 이름·예산 설정, 이전 체험 리포트 확인" width="250">
+<img src="docs/readme/mobile-mock-adoption.gif" alt="모의 입양 동물 선택, 이름·예산 설정, 이전 체험 리포트 확인" width="250">
 
 </details>
 
@@ -126,8 +126,8 @@
       <td valign="top">정해둔 예산 안에서 사료, 간식, 산책용품 등 필요한 물품을 구매합니다.</td>
     </tr>
     <tr>
-      <td align="left"><img src="docs/demos/mobile-mock-adoption-feed.gif" alt="가상 반려동물에게 사료와 물을 주는 모습" width="250"></td>
-      <td align="left"><img src="docs/demos/mobile-mock-adoption-shop.gif" alt="상점에서 용품을 골라 구매하는 과정" width="250"></td>
+      <td align="left"><img src="docs/readme/mobile-mock-adoption-feed.gif" alt="가상 반려동물에게 사료와 물을 주는 모습" width="250"></td>
+      <td align="left"><img src="docs/readme/mobile-mock-adoption-shop.gif" alt="상점에서 용품을 골라 구매하는 과정" width="250"></td>
     </tr>
   </tbody>
 </table>
@@ -145,7 +145,7 @@
       <td valign="top">Android에서 가상 반려동물과 걷고, 음성으로 말을 걸거나 지도에서 경로를 확인합니다. 돌봄 중에는 돌발 상황에도 대응합니다.</td>
     </tr>
     <tr>
-      <td align="left"><img src="docs/demos/mobile-mock-adoption-play.gif" alt="장난감을 던져 가상 반려동물과 노는 모습" width="250"></td>
+      <td align="left"><img src="docs/readme/mobile-mock-adoption-play.gif" alt="장난감을 던져 가상 반려동물과 노는 모습" width="250"></td>
       <td align="left"><!-- 산책 시연 GIF 추가 위치 -->&nbsp;</td>
     </tr>
   </tbody>
@@ -168,8 +168,8 @@
       <td valign="top">신청서와 모의 입양 리포트를 검토하고, 서류 심사부터 최종 승인까지 진행합니다.</td>
     </tr>
     <tr>
-      <td align="left"><a href="docs/demos/web-animal-registration.gif"><img src="docs/demos/web-animal-registration.gif" alt="보호 동물 사진과 정보를 입력하고 등록 결과를 확인하는 과정" width="360"></a></td>
-      <td align="left"><a href="docs/demos/web-adoption-review.gif"><img src="docs/demos/web-adoption-review.gif" alt="입양 신청의 서류 승인 후 심사 단계가 바뀌는 과정" width="360"></a></td>
+      <td align="left"><a href="docs/readme/web-animal-registration.gif"><img src="docs/readme/web-animal-registration.gif" alt="보호 동물 사진과 정보를 입력하고 등록 결과를 확인하는 과정" width="360"></a></td>
+      <td align="left"><a href="docs/readme/web-adoption-review.gif"><img src="docs/readme/web-adoption-review.gif" alt="입양 신청의 서류 승인 후 심사 단계가 바뀌는 과정" width="360"></a></td>
     </tr>
   </tbody>
 </table>
