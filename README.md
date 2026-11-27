@@ -225,40 +225,7 @@
 
 ## 아키텍처
 
-```mermaid
-flowchart LR
-    Mobile["반려인 앱 · React Native"]
-    Web["보호소 웹 · React"]
-    Edge["Traefik · HTTPS"]
-    Mobile --> Edge
-    Web --> Edge
-
-    subgraph Cluster["k3s 클러스터"]
-        ShelterUI["보호소 웹 프런트엔드"]
-        Core["core-api · 회원, 신고, 구조, 입양"]
-        Chat["chat · STOMP WebSocket"]
-        Simulation["simulation · 돌봄과 리포트"]
-        Notification["notification · 알림"]
-        Breed["breed-server · 품종 추천"]
-        Worker["match-worker · 개체 비교"]
-        MQ["RabbitMQ"]
-        SQL[("PostgreSQL · pgvector")]
-        Redis[("Redis")]
-    end
-
-    Edge --> Core & Chat & Simulation & Notification & ShelterUI
-    Core -->|내부 HTTP| Breed
-    Core <-->|매칭 요청과 결과| MQ
-    MQ <-->|종별 매칭| Worker
-    Chat -->|채팅 알림 이벤트| MQ
-    MQ --> Notification
-    Core & Chat & Simulation & Notification & Worker --> SQL
-    Core --> Redis
-    Mobile & Web -->|서명된 URL로 직접 업로드| S3[("S3 이미지 저장소")]
-    Worker --> S3
-    Notification --> FCM["Firebase Cloud Messaging"]
-    Simulation --> LLM["OpenAI API · 돌봄 리포트"]
-```
+![USee 시스템 아키텍처](./docs/readme/usee-architecture.png)
 
 - **서비스 분리** · Core API, 채팅, 알림, 시뮬레이션을 독립 배포하고, PostgreSQL은 서비스별 스키마와 계정을 분리합니다. 품종 추천은 내부 HTTP로 호출하고, 개체 매칭은 RabbitMQ 큐에서 처리합니다.
 - **배포와 운영** · GitLab CI가 변경된 서비스의 이미지를 빌드하고 Kustomize 매니페스트의 태그를 갱신합니다. Argo CD가 변경을 k3s에 반영합니다. Prometheus·Grafana로 메트릭을 확인하고 Loki·Alloy로 로그를 수집합니다. PostgreSQL 백업은 S3에 보관합니다.
