@@ -104,15 +104,6 @@
 
 #### 모의 입양
 
-반려동물과 이름, 첫 주 예산을 정해 체험을 시작합니다. 이전 체험의 리포트도 열어볼 수 있습니다.
-
-<details>
-<summary>모의 입양 시작 화면 보기</summary>
-
-<img src="docs/readme/mobile-mock-adoption.gif" alt="모의 입양 동물 선택, 이름·예산 설정, 이전 체험 리포트 확인" width="250">
-
-</details>
-
 <table width="760">
   <thead>
     <tr>
@@ -135,18 +126,39 @@
 <table width="760">
   <thead>
     <tr>
+      <th scope="col" width="380" align="left">모의 입양 시작</th>
       <th scope="col" width="380" align="left">놀아주기 · 간식 주기</th>
-      <th scope="col" width="380" align="left">AR 산책 · 돌발 이벤트</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <td valign="top">반려동물과 이름, 첫 주 예산을 정해 체험을 시작합니다. 이전 체험의 리포트도 확인할 수 있습니다.</td>
       <td valign="top">장난감을 던져 반려동물과 놀거나 준비한 간식을 줍니다.</td>
-      <td valign="top">Android에서 가상 반려동물과 걷고, 음성으로 말을 걸거나 지도에서 경로를 확인합니다. 돌봄 중에는 돌발 상황에도 대응합니다.</td>
     </tr>
     <tr>
+      <td align="left"><img src="docs/readme/mobile-mock-adoption.gif" alt="모의 입양 동물 선택, 이름·예산 설정, 이전 체험 리포트 확인" width="250"></td>
       <td align="left"><img src="docs/readme/mobile-mock-adoption-play.gif" alt="장난감을 던져 가상 반려동물과 노는 모습" width="250"></td>
-      <td align="left"><!-- 산책 시연 GIF 추가 위치 -->&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+
+#### AR 산책
+
+<table width="760">
+  <thead>
+    <tr>
+      <th scope="col" width="380" align="left">AR 산책</th>
+      <th scope="col" width="380" align="left">AR 산책 중 돌발 이벤트</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="top">Android에서 카메라가 인식한 바닥에 가상 반려동물을 배치하고 함께 걷습니다.</td>
+      <td valign="top">산책 중 배변 이벤트가 발생하면 안내를 확인하고 뒤처리를 합니다.</td>
+    </tr>
+    <tr>
+      <td align="left"><img src="docs/readme/mobile-ar-walk.gif" alt="AR 화면에서 가상 반려동물과 산책하는 모습" width="250"></td>
+      <td align="left"><img src="docs/readme/mobile-ar-walk-sudden-event.gif" alt="AR 산책 중 배변 안내를 확인하고 뒤처리하는 모습" width="250"></td>
     </tr>
   </tbody>
 </table>
